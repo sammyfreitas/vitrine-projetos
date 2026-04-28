@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos orientados | Prof. Anthony Freitas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="bg-blur blur-1"></div>
+  <div class="bg-blur blur-2"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <img class="brand-photo" src="img/avatar.png" alt="Anthony Samuel Freitas">
+        <div>
+          <p class="brand-label">Repositório de projetos orientados</p>
+          <h1 class="brand-title">Anthony Samuel Freitas</h1>
+          <p class="brand-subtitle">Professor orientador • mentor • tecnologia, educação e impacto social</p>
+        </div>
+      </div>
+
+      <nav class="socials" aria-label="Redes sociais">
+        <a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank" aria-label="LinkedIn"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/sammyfreitas/" target="_blank" aria-label="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://x.com/TonySdeFreitas" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/anthony_tijuduke/" target="_blank" aria-label="Instagram"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/anthonyfreitas78" target="_blank" aria-label="Facebook"><i
+            class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://wa.me/5521986140005" target="_blank" aria-label="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="filters-wrap container">
+    <div class="filters glass">
+
+      <div class="search-box">
+        <input type="text" id="buscaGeral" placeholder="Buscar aluno, projeto, turma ou tecnologia">
+        <button id="btnBuscar" class="search-button" type="button" title="Buscar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="filter-actions">
+        <select id="filtroTurma">
+          <option value="todas">Todas as turmas</option>
+        </select>
+
+        <select id="filtroTecnologia">
+          <option value="todas">Todas as tecnologias</option>
+        </select>
+
+        <button id="btnSoDestaques" class="btn btn-primary" type="button">Ver só destaques</button>
+        <button id="btnMostrarTudo" class="btn btn-secondary" type="button">Mostrar tudo</button>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="hero container">
+    <div class="hero-copy">
+      <span class="pill">Laboratório de Projetos Aplicados • Mentoria • Qualificação • Aprendizagem aplicada</span>
+      <h2>Vitrine de Projetos Aplicados SENAI</h2>
+      <p>
+        Este espaço reúne projetos desenvolvidos por alunos da qualificação profissional, onde acompanhei como
+        professor, orientador e mentor e a proposta é valorizar produções técnicas, criatividade, aprendizagem aplicada
+        e soluções conectadas a problemas reais. A iniciativa busca dar visibilidade a trabalhos que muitas vezes ficam
+        apenas arquivados, transformando entregas de curso em evidências de competência, inovação e impacto social.
+      </p>
+    </div>
+
+    <aside class="hero-side">
+      <div class="summary-card glass">
+        <h3>Resumo do acervo</h3>
+        <div class="summary-stats">
+          <div class="summary-item">
+            <strong id="totalTurmas">0</strong>
+            <span>Turmas</span>
+          </div>
+          <div class="summary-item">
+            <strong id="totalProjetos">0</strong>
+            <span>Projetos</span>
+          </div>
+          <div class="summary-item">
+            <strong id="totalAlunos">0</strong>
+            <span>Alunos com projeto</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="gp-card glass">
+        <span class="mini-kicker">Mentoria</span>
+        <h3>Grand Prix SENAI de Inovação 2026</h3>
+        <p>Mentoria de 5 grupos no desenvolvimento de soluções, estruturação de pitch e apresentação de projetos.</p>
+        <a href="#gp" class="btn btn-secondary">Ver seção</a>
+      </div>
+    </aside>
+  </section>
+
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <span class="mini-kicker">Destaques</span>
+        <h2>Projetos em destaque</h2>
+        <p>Prints e acessos rápidos para alguns dos trabalhos que mais se destacaram.</p>
+      </div>
+    </div>
+
+    <div class="highlight-carousel glass">
+      <button class="carousel-btn" id="prevHighlight" aria-label="Anterior">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="highlight-stage" id="highlightStage"></div>
+
+      <button class="carousel-btn" id="nextHighlight" aria-label="Próximo">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="carousel-dots" id="highlightDots"></div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <span class="mini-kicker">Turmas</span>
+        <h2>Acervo por turma</h2>
+        <p>Clique em uma turma para acessar os alunos, os projetos, os materiais e os destaques.</p>
+      </div>
+    </div>
+
+    <div class="grid-turmas" id="listaTurmas"></div>
+  </section>
+
+  <section class="container section" id="gp">
+    <div class="gp-section glass">
+      <div class="gp-content">
+        <img src="img/destaques/gp-inovacao2026.png" alt="Grand Prix SENAI de Inovação 2026" class="gp-image"
+          class="gp-image">
+
+        <h2>Mentoria • Grand Prix SENAI de Inovação 2026</h2>
+        <p>
+          Além das turmas regulares, atuei na mentoria de 5 grupos no Grand Prix SENAI de Inovação 2026,
+          apoiando equipes na construção de soluções, refinamento da proposta, organização do pitch
+          e fortalecimento da apresentação final.
+        </p>
+      </div>
+
+      <div class="gp-links">
+        <span class="mini-kicker"><a href="paginas/mentorias-gp2026.html" target="_blank"> Grand Prix</a></span>
+        <a href="paginas/mentorias-gp2026.html#guardioes" class="gp-link">
+          Mentoria 1: 🛡️ Guardiões Digitais
+          <span>Cybersegurança • Smartglass seguro (Secure AR)</span>
+        </a>
+
+        <a href="paginas/mentorias-gp2026.html#mentes" class="gp-link">
+          Mentoria 2: 🔐 Mentes Brilhantes
+          <span>Cybersegurança • Controle de acesso (OptLock)</span>
+        </a>
+
+        <a href="paginas/mentorias-gp2026.html#elite" class="gp-link">
+          Mentoria 3: ♿ Elite Devs
+          <span>Acessibilidade • Totem inteligente (TOTEM ELO)</span>
+        </a>
+
+        <a href="paginas/mentorias-gp2026.html#f1" class="gp-link">
+          Mentoria 4: 🤖 F1 Team
+          <span>Roteirização inteligente de equipes</span>
+        </a>
+
+        <a href="paginas/mentorias-gp2026.html#quarteto" class="gp-link">
+          Mentoria 5: 🧏 Quarteto Fantástico
+          <span>Acessibilidade • VIRATEXTO</span>
+        </a>
+
+      </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-curadoria">
+      <h3>Curadoria e orientação</h3>
+      <p>
+        Projeto organizado por Anthony Samuel Freitas, professor, mentor e desenvolvedor,
+        com atuação em tecnologia, educação, integração de sistemas e iniciativas de diversidade,
+        equidade e inclusão.
+      </p>
+    </div>
+    <div class="container footer-grid">
+      <div>
+        <h3>Contato</h3>
+        <p><a href="mailto:tonysdefreitas@gmail.com">tonysdefreitas@gmail.com</a></p>
+        <p><a href="https://wa.me/5521986140005" target="_blank">(21) 98614-0005</a></p>
+        <p>Tijuca • Rio de Janeiro, RJ</p>
+      </div>
+
+      <div>
+        <h3>Atuação</h3>
+        <p style="font-weight:bolder; color: whitesmoke">Engenheiro de Software</p>
+        <p style="font-size: smaller;">Projetos de integração • Rastreamento e logística</p>
+        <p style="font-size: smaller;">Soluções com câmeras • ADAS/DMS • Bafômetro • Silo • Baú • Temperatura 1-Wire /
+          BLE e telemetria</p>
+        <p style="font-weight:bolder; color: whitesmoke">DEV</p>
+        <p style="font-size: smaller;">Spring Tools • Java • Node.js • Perl • Python e Pandas</p>
+        <p style="font-weight:bolder; color: whitesmoke">Educação e tecnologia</p>
+        <p style="font-size: smaller;">FrontEnd • BackEnd • Redes • Análise de Dados • PowerBI</p>
+        <p style="font-weight: bolder; color: whitesmoke">Mentoria de projetos</p>
+        <p style="font-size: smaller;">Grand Prix SENAI de Inovação 2026</p>
+        <p style="font-size: smaller;">Cybersegurança • Robótica Educacional • Prototipação • Acessibilidade e Inclusão
+        </p>
+        <p style="font-weight: bolder; color: whitesmoke">DE&amp;I • Firjan</p>
+        <p style="font-size: smaller;">Diversidade • Equidade • Inclusão</p>
+
+      </div>
+
+      <div>
+        <h3>Também acompanhe</h3>
+        <p>Portfólio pessoal e projetos em educação, cultura e mentoria.</p>
+        <p><a href="https://github.com/sammyfreitas/" target="_blank">Ver meus projetos</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="dados/projetos.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

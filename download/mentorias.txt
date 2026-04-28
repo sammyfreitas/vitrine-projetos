@@ -1,0 +1,199 @@
+Mentoria Guardiões Digitais
+presencial
+fomrado por Alec e Kaio (turma backend), Gabriel (turma front) e Ricardo (curso tec ads mobile/fullstack)
+pitch: https://youtu.be/7oxF2iCqk-0
+protótipo: https://youtu.be/uVqrd84prQ8
+vc tem todo o contexto do projeto em GP SEnai 2026 - chatdesafio cybersegurança
+
+
+000
+Mentoria 1 - 
+MENTORIA 1 - PALOMA - CIBERSEGURANÇA TEMA: Cibersegurança e Ética Digital Este tema busca estimular a criação de soluções que fortaleçam a proteção de dados, aumentem a segurança de sistemas e dispositivos conectados e promovam o uso ético e responsável de tecnologias emergentes, alinhando inovação, confiança e responsabilidade digital. DESAFIO PETROBRAS Descrição Nós somos jovens que priorizam e valorizam as oportunidades. Temos o foco em, principalmente, adquirir conhecimento, aprendizado e novas experiências! Membros da Equipe Paloma Maria Silva Guimarães Porta-voz mail 0001150157@senaimgaluno.com.br - Ingrid Ester Machado Resende Ingrid Ester Machado Resende mail 0001238039@senaimgaluno.com.br - Ryane Menezes Maia Ryane Menezes Maia mail 0001141704@senaimgaluno.com.br - Livia Cristine Diniz Santos Livia Cristine Diniz Santos mail liviadiniz678@gmail.com - Juan Costa Nogueira Gonçalves Juan Costa Nogueira Gonçalves mail 0001238050@senaimgaluno.com.br
+CyberSegurança
+
+Ideia Inicial
+
+Adesivo físico para bloquear a câmera do smartglass, focado em privacidade.
+
+Como a ideia evoluiu
+
+Sistema simples de controle de uso do smartglass com:
+
+RFID + biometria para identificar o usuário
+Limitação de funções (ex: câmera) conforme o local
+Uso em ambientes industriais com áreas restritas
+Pontos Fortes
+Resolve um problema real (uso indevido e vazamento de informação)
+Evoluiu de solução física para digital
+Considera controle por usuário e por ambiente
+Fácil de explicar no pitch
+Pontos Fracos
+Ainda simples tecnicamente
+
+Pode faltar detalhamento de como funciona a localização
+Pouca exploração de ataques ou falhas do sistema
+Parte de ética digital ainda superficial
+
+
+
+Mentoria 2 - Matheus GP Senai 2026 Elite Devs
+https://sammyfreitas.github.io/fluxo-humano/
+
+MENTORIA 2 - MATHEUS - Tema: Acessibilidade ligada à inclusão e performance organizacional Este tema propõe que as empresas apresentem desafios que promovam acessibilidade de forma integrada à rotina organizacional — seja na comunicação, nos sistemas, nos espaços ou nos fluxos de trabalho — fortalecendo a inclusão como um vetor direto de eficiência, qualidade e melhores resultados para o negócio. Petrobrás Membros da Equipe Matheus Castilho Camargo Matheus Castilho Camargo Porta-voz mail matheus.c.camargo@edu.senai.br - Maria Eduarda Dos Santos Nogueira Maria Eduarda Dos Santos Nogueira mail maria.e.nogueira6@edu.senai.br - João Roberto Zanetti João Roberto Zanetti mail joaorobertozanetti3@gmail.com - ÍSIS RUIZ ÍSIS RUIZ mail isis.ruiz@edu.senai.br - Isabella Garcia Luque Isabella Garcia Luque mail isabella.luque@edu.senai.br [13:32, 14/04/2026] Anthony Freitas: Oi Matheus! Tudo bem? Meu nome é Anthony Freitas, sou engenheiro e dev e atuo na área de tecnologia com atuação em desenvolvimento de sistemas e ensino técnico no SENAI Maracanã. Fui designado como mentor de vocês no tema de Acessibilidade ligada à inclusão durante o Grand Prix SENAI de Inovação. Estou à disposição para apoiar no direcionamento do projeto, validação da ideia e evolução do protótipo. Sugiro o atendimento aqui pelo WhatsApp mesmo. Nos vemos no horário da mentoria! Se puderem, já me antecipem um breve resumo do problema, solução proposta e o que já conseguiram desenvolver até agora. [13:34, 14/04/2026] Matheus GP Senai 2026 Elite Devs: Oii [13:34, 14/04/2026] Matheus GP Senai 2026 Elite Devs: Boa tarde [13:34, 14/04/2026] Matheus GP Senai 2026 Elite Devs: Mando sim [13:37, 14/04/2026] Matheus GP Senai 2026 Elite Devs: DESAFIOS Como podemos utilizar inteligência artificial para transformar a forma como a organização identifica, compreende e atua sobre as demandas relacionadas à acessibilidade, promovendo uma abordagem mais integrada, ágil, orientada por dados e capaz de impulsionar a inclusão efetiva e a performance organizacional? [13:39, 14/04/2026] Matheus GP Senai 2026 Elite Devs: Nossa proposta é um robo de IA que vai escultar os funcionarios, entender seus problemas, ajudando na acessibilidade, promovendo apoio a empresa na base de seus dados. [13:42, 14/04/2026] Anthony Freitas: DESAFIOS Como podemos utilizar inteligência artificial para transformar a forma como a organização identifica, compreende e atua sobre as demandas relacionadas à acessibilidade, promovendo uma abordagem mais integrada, ágil, orientada por dados e capaz de impulsionar a inclusão efetiva e a performance organizacional? muito bom, já consigo ter um norte para ajudar vocês. esse é o tema do desafio que foi designado/escolhido por vocês? [13:43, 14/04/2026] Matheus GP Senai 2026 Elite Devs: Deveres do robo: Pesquisa organizacional de clima, onde escultara os problemas pessoais e da empresa dos trabalhadores, enviando para um analista psicologo. 2. Ele deve tirar duvidas e dar suporte aos trabalhadores, com as problemas encontrados dentro da empresa, se adaptando a linguagem, dificuldades e a deficiencia encontrada no portifolio criado pelo trabalhador. [13:45, 14/04/2026] Matheus GP Senai 2026 Elite Devs: muito bom, já consigo ter um norte para ajudar vocês. esse é o tema do desafio que foi designado/escolhido por vocês? isso mesmo [13:45, 14/04/2026] Anthony Freitas: muito boa a ideia. vc já foi no museu do amanhã aqui no RJ? tem um robozinho lá que faz isso [13:45, 14/04/2026] Anthony Freitas: o que significa q a ideia de vcs é bastante viável [13:45, 14/04/2026] Matheus GP Senai 2026 Elite Devs: muito boa a ideia. vc já foi no museu do amanhã aqui no RJ? tem um robozinho lá que faz isso não tivemos a oportunidade ainda, pensamos tudo aqui mesmo [13:46, 14/04/2026] Anthony Freitas: (talvez um pouco cara, pensa tb numa possibilidade de ter tudo isso num totem por exemplo) [13:46, 14/04/2026] Matheus GP Senai 2026 Elite Devs: (talvez um pouco cara, pensa tb numa possibilidade de ter tudo isso num totem por exemplo) tem essa possibilidade tambemm [13:46, 14/04/2026] Anthony Freitas: vcs são do senai ? de q cidade? [13:46, 14/04/2026] Matheus GP Senai 2026 Elite Devs: jaú [13:47, 14/04/2026] Anthony Freitas: (desculpa, vou deixar pra falar melhor no momento da mentoria) [13:48, 14/04/2026] Matheus GP Senai 2026 Elite Devs: tudo bemm, estamos ansiosos
+
+
+Ideia inicial
+
+Robô de IA que “escuta” os funcionários, entende problemas e ajuda a empresa com acessibilidade e clima organizacional.
+
+Como ficou
+
+Totem acessível com interface web que permite que colaboradores PCD relatem dúvidas e problemas por texto (e apoio visual/áudio), com classificação da demanda e encaminhamento para RH, gestor ou psicólogo.
+
+Pontos fortes
+Ideia agora concreta e viável (MVP claro)
+Alinhada ao tema (acessibilidade + performance)
+Foco em inclusão prática, não só discurso
+Fluxo bem definido (entrada → análise → encaminhamento)
+Geração de dados para a empresa
+Pontos fracos
+Risco de ficar genérico ao atender “todos os PCD”
+Dependência de explicar bem a IA (pode virar superficial)
+Falta detalhar como cada acessibilidade funciona na prática
+Pode perder força se não conectar claramente com resultado de negócio
+
+
+
+
+Mentoria 3
+
+MENTORIA 3 - KAMILLY - ROBOTICA
+Tema: Tema
+Robótica Colaborativa e Automação de Processos
+
+Este tema convida as empresas a trazerem desafios que promovam a integração entre pessoas e máquinas, conectando sistemas mecânicos, sensores e software para tornar os processos mais eficientes, seguros e adaptáveis, potencializando resultados sem substituir o papel humano, mas fortalecendo-o.
+
+flag
+DESAFIO VALE
+
+Membros da Equipe
+Kamilly Cristina Hoffmann Zanon
+Kamilly Cristina Hoffmann Zanon
+
+Porta-voz
+mail
+kamilly_zanon@estudante.sesisenai.org.br
+-
+
+Matheus Henrique Rech Davila
+Matheus Henrique Rech Davila
+
+mail
+matheus_h_davila@estudante.sesisenai.org.br
+-
+
+Samuel pereira da silva
+Samuel pereira da silva
+
+mail
+samuel_p_da-silva@estudante.sesisenai.org.br
+-
+
+kauan stumer dos santos
+kauan stumer dos santos
+
+mail
+kauan_s_dos-santos@estudante.sesisenai.org.br
+-
+
+Gustavo Araldi da Silva
+Gustavo Araldi da Silva
+
+mail
+gustavo_silva197@estudante.sesisenai.org.br
+
+[13:31, 14/04/2026] Anthony Freitas: Oi Kamilly! Tudo bem?
+Meu nome é Anthony Freitas, sou engenheiro e dev e atuo na área de tecnologia com atuação em desenvolvimento de sistemas e ensino técnico no SENAI Maracanã.
+Fui designado como mentor de vocês no tema de Robótica Colaborativa durante o Grand Prix SENAI de Inovação.
+Estou à disposição para apoiar no direcionamento do projeto, validação da ideia e evolução do protótipo.
+
+Sugiro o atendimento aqui pelo WhatsApp mesmo.
+Vocês estavam agendados para 14h00, mas agendaram outros 2 grupos no mesmo horário.  Vcs teriam disponibilidade às 15h?
+
+Nos vemos no horário da mentoria! Se puderem, já me antecipem um breve resumo do problema, solução proposta e o que já conseguiram desenvolver até agora.
+[13:33, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: Oi Kamilly! Tudo bem?
+Meu nome é Anthony Freitas, sou engenheiro e dev e atuo na área de tecnologia com atuação em desenvolvimento de sistemas e ensino técnico no SENAI Maracanã.
+Fui designado como mentor de vocês no tema de Robótica Colaborativa durante o Grand Prix SENAI de Inovação.
+Estou à disposição para apoiar no direcionamento do projeto, validação da ideia e evolução do protótipo.
+
+Sugiro o atendimento aqui pelo WhatsApp mesmo.
+Vocês estavam agendados para 14h00, mas agendaram outros 2 grupos no mesmo horário.  Vcs teriam disponibilidade às 15h?
+
+Nos vemos no horário da mentoria! Se puderem, já me antecipem um breve resumo do problema, solução proposta e o que já conseguiram desenvolver até agora.
+oii tudo bem e com o senhor?
+[13:34, 14/04/2026] Anthony Freitas: Tudo tranks!
+Poderíamos fazer a reunião às 15h?
+[13:34, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: Tudo tranks!
+Poderíamos fazer a reunião às 15h?
+claro que poderíamos!
+[13:34, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: mas temos um probleminha
+[13:34, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: eu ainda não tenho nada preparado
+[13:35, 14/04/2026] Anthony Freitas: eu ainda não tenho nada preparado
+Vc tem uma ideia?
+[13:35, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: mas vou fazer o possível para preparar até a mentiria
+[13:35, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: Vc tem uma ideia?
+pior que não
+[13:35, 14/04/2026] Anthony Freitas: Podemos trabalhar com sua ideia
+[13:35, 14/04/2026] Anthony Freitas: pior que não
+Rs
+[13:35, 14/04/2026] Anthony Freitas: Vou ajudar a dar ideias então
+[13:36, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: Vou ajudar a dar ideias então
+eu agradeço
+[13:41, 14/04/2026] Anthony Freitas: consegue me mandar o tema do desafio que foi designado/escolhido por vocês?
+[13:42, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: o tema?
+[13:42, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: só um instante
+[13:44, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: o nosso tema é robótica colaborativa e automação de processos
+[13:45, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: e nosso desafio é o da vale
+[13:47, 14/04/2026] Anthony Freitas: eu trabalhei na vale por 8 anos
+[13:47, 14/04/2026] Kamilly GP Senai 2026 F1 TEAM: temos uma vantagem então
+
+
+Resumo da evolução da ideia:
+Inicialmente, a equipe pensou em um app para acompanhar o transporte e localização de cargas. Após orientação, a ideia foi refinada para focar no desafio proposto: a roteirização em tempo real das equipes de campo dentro da operação da Vale, evoluindo para um sistema inteligente que não apenas mostra localização, mas apoia a tomada de decisão.
+
+Como ficou a solução:
+Desenvolvimento de um app integrado a um painel que monitora as equipes em tempo real e sugere automaticamente qual equipe deve atender uma demanda, considerando proximidade, disponibilidade e melhor rota, com adaptação a mudanças na operação.
+
+Pontos fortes:
+
+Boa aderência ao desafio (roteirização de equipes)
+Evolução de uma ideia simples para solução com inteligência
+Potencial de uso de sensores/localização (robótica colaborativa)
+Clareza de impacto (ganho de eficiência e redução de atrasos)
+
+Pontos fracos:
+
+Ideia ainda pode ficar genérica se focar só em “mapa/localização”
+Necessidade de reforçar o diferencial (decisão automática)
+Dependência de detalhar melhor como funcionam sensores/dados
+Risco de escopo amplo para o nível de desenvolvimento da equipe
+
+
+MENTORIA 4 
+Mentoria 4 - Arthur, Guilherme e Filipe acessibilidade - jovem aprendiz de gestão industrial, acessibilidade implementar IA como forma positiva na deficiaencia visual fisica na extração de petroleo da petrobras
+
+Tradutor inteligente (texto/voz → Libras) Uma IA que: recebe voz ou texto converte para: Libras (alfabeto ou avatar) ou texto simplificado 👉 Exemplo real: Supervisor fala → sistema transforma → colaborador surdo entende qr code para totens e totens com sistemna do site
+
+dá pra fazer integração com takeblip q é um contato que já existe e pode ser salvo nos celulares q faz a transcrição de audio e resume
+
+
+vou trocar o nome Totem Acessivel ou algo assim, tem sugestão melhor?
+
+Nosso projeto propõe um totem com sistema web acessível, integrado a QR Code, que ajuda na comunicação com colaboradores com deficiência auditiva. O supervisor pode falar ou digitar uma mensagem, e o sistema transforma esse conteúdo em formato visual mais acessível, com apoio em Libras e texto simplificado. Assim, a solução melhora a comunicação, fortalece a inclusão e reduz barreiras no ambiente industrial.
+
+Fechamos a ideia em um totem com sistema web e QR Code para facilitar a comunicação com pessoas com deficiência auditiva. O sistema recebe voz ou texto e transforma a mensagem em formato visual acessível, com apoio em Libras, alfabeto manual ou texto simplificado. O totem pode ser usado no ambiente de trabalho e o QR Code permite acompanhar a mensagem também pelo celular. A proposta foca em inclusão, comunicação e acessibilidade no contexto industrial.
+
+no projeto html faltou um local para clicar e falar para transcrever depois  e faz um alert para 'em desenvolvimento'
+
+grupo Quarteto Fantástico, GrandPrix Senai Inovação 2026
+https://sammyfreitas.github.io/totemAcessibilidade/

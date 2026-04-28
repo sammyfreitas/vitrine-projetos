@@ -1,0 +1,283 @@
+liste todas as turmas que já coloquei. no lugar da turma vamos colocar a premissa da turma e do projeto final daquela turma. 
+
+Turmas de FrontEnd - Usar um emoticon representando o curso de front para esse card
+----------------------------
+Premissas: Criação de um portfolio com alguns tipos de site: 
+
+ - QUA02492023O022 
+Pagina Pessoal com Curriculo e Portfolio + Projetos
+Projeto Integrador:Site
+Projeto 1 - Página com Tabelas(países/times/planetas)
+Primeira página com tabelas, imagens e hiperlinks
+Competências: HTML
+Projeto 2-Padaria.
+One Page com hiperlinks para dentro da página usando id, marquee e estilização css inline.
+Competências: HTML, CSS inline
+Projeto 3-Calculadora
+One Page com Calculadora
+Competências: HTML, CSS, JavaScript
+Projeto 4-Calculadora IMC
+One Page calculadora de IMC de acordo com os dados digitados pelo usuário e recomendações de saúde
+Competências: HTML, CSS, JavaScript
+Projeto 5 - Conversor de Temperatura
+One Page conversora de graus Celsius em Farenheit e Farenheit em Celsius
+Competências: HTML, CSS, JavaScript
+Projeto 6 - Conversor de Moedas
+One Page conversora de moedas com uso de API externa pública e gratuita ExchanGerate
+Competências: HTML, CSS, JavaScript e APIs
+
+ 
+
+Adriana Ribeiro Oliveira
+	https://github.com/AdrianaOliveira2023
+Projeto Portfolio https://adrianaoliveira2023.github.io/Projeto-integrador/
+Projeto Final 1 Padaria https://adrianaoliveira2023.github.io/Projeto-Padaria/	
+Projeto Final 2 Sons https://adrianaoliveira2023.github.io/SonicFlow/
+	https://adrianaoliveira2023.github.io/TabelaPlanetas/
+	https://adrianaoliveira2023.github.io/Business-Card/ Cartao de visitas e curriculo
+Projeto Final 3 - Web Stories	https://adrianaoliveira2023.github.io/Galeria-de-AMP-Stories/
+Alexandre Belem
+	https://github.com/alexbelem
+Projeto Final: https://alexbelem.github.io/Lotus/
+Curriculo: https://alexbelem.github.io/curriculo/   https://alexbelem.github.io/curriculo-detalhado/
+	https://alexbelem.github.io/psicologia/
+	https://alexbelem.github.io/ARTs-emitidas/
+
+Amanda da Veiga
+	https://github.com/amandavvp
+	https://amandavvp.github.io/about-me/
+	linkedin/amandavvporto
+	https://amandavvp.github.io/Churrascometro/
+Projeto final https://amandavvp.github.io/site-de-adocao-pet/
+
+Brenda da Silva
+Carla N Silva
+	https://estudocns.github.io/MeuPrimeiroPortal/ (Portfolio)
+	https://estudocns.github.io/Tabela-filhos-/
+	https://estudocns.github.io/Calculadora-de-IMC/
+	https://estudocns.github.io/Conversor-de-Temperatura-/
+	https://estudocns.github.io/Conversor-de-moedas-/  consumindo API pública "ExchanGerate"
+Projeto Final: Padaria https://estudocns.github.io/Projeto01--Padaria/
+Eduardo Stephan
+Gabriel da Silva
+José Luís de Souza
+Juliane Calegario
+Leonardo Gironde
+Luana Souza
+Luiz Gustavo Vieira
+Marcos C. dos Santos
+Marilia Souza
+Marllus Henrique Rocha
+Matheus Pereira
+Ricardo Gonçalves
+Thalles Alexandre
+Vinicius Silva
+Waldson Geverson
+Wanderson Lúcio
+Wesley de Oliveira
+Yuri da Silva Carneiro
+Yuri Silva Pinheiro
+
+
+
+ - QUA02492023O024 - Desenvolvimento Web
+PROJETO 8 - APP React 
+One page feita com Create APP React)
+Competências: HTML, CSS, React
+----
+
+1. AJUSTAR A HOME-PAGE 'INDEX.HTML'
+    a) Escrever 3 parágrafos sobre o curso que estão fazendo de Programador Front-End
+    b) Criar hiperlink para HTML, CSS, JavaScript e React que estão no menu lateral esquerdo
+    c) Alterar o rodapé para "Desenvolvido por "Aluno Fulano de Tal"
+   
+2. Copiar e colar para as páginas:
+    a) Projetos
+        Projeto 01 - Página Brasileirão (hiperlink)
+            Primeira one page criada com uso de tabelas.
+            Competências: HTML
+        Projeto 02 - Home-Page de um Negócio Local (Salão de Beleza, Loja de Donuts, Mecânico de Moto, Bicicletaria, Banca de Jornal)
+            One page com uso de tabelas ou divs
+            Competências: HTML, CSS
+        Projeto 03 - Home-Page empreendimento do aluno
+            One page com uso divs
+            Competências: HTML, CSS
+        Projeto 04 - Calculadora
+            One page de Calculadora (funções simples, soma subtração, multiplicação e divisão, botão para limpar e apagar)
+            Competências: HTML, CSS, JavaScript
+        Projeto 05 - Calculadora IMC
+            One page de Calculadora (cálculo do IMC, validação de campos e orientações para o usuário)
+            Competências: HTML, CSS, JavaScript
+        Projeto 06 - Conversor de Moedas
+            One page Conversor de Moedas (real para euro, dolar, iene, libra e peso argentino)
+            Competências: HTML, CSS, JavaScript
+        Projeto 07 - Landing Page com React
+            Landing page / One Page
+            Competências: HTML, CSS, React
+    b) Curriculo
+        Formação, experiência, interesses
+    c) Sobre
+        Um pouco sobre vocês (3 parágrafos, hobbies)
+    d) Contato
+        Redes sociais
+        Ponto extra para um mini-formulário ("nome, e-mail, telefone e uma caixa para a pessoa escrever, botão enviar para email")
+
+DIEGO        - LOJA DE INSTRUMENTOS MUSICAIS
+EMANOEL        - CONFEITARIA
+GABRIEL        - DOCERIA FITNESS
+JOAO FELIPE 	- ACADEMIA
+JOAO PEDRO    - PERFUMARIA / NATURA
+LUCAS        - LOJA DE JOGOS / CONSOLES E PC
+LUIZ FELIPE    - MATERIAL DE CONSTRUÇÃO
+PAULO SERGIO - SALAO DE BELEZA
+RAONI        -  Pizzaria "Pizzashop"  - Raoni de Oliveira Gonçalves • 20 de dez. de 2023
+https://github.com/raonigoncalves/
+https://raonigoncalves.github.io/brasileirao/
+https://raonigoncalves.github.io/negocio-local/   
+RUIMAR        - BARBEARIA
+SALOMÃO        - ESTUDIO DE PILATES
+VITOR        - CONFEITARIA/SALGADOS OU ACADEMIA DE BOXE
+
+
+ - Programador FrontEnd - QUA02492024O039 - (final 05/05/25)
+Baseado no projeto MINHA-LANCHONETE convido a todos vocês entregarem um Projeto Integrador que SEJA uma loja virtual, porém DIFERENTE de lanchonete.
+Vale Roupas, Pizzas, Doces Gourmet, Carros.... a criativade de vocês é o limite.
+Podem escolher criar o PROJETO INTEGRADOR em 
+* REACT
+* HTML + CSS + JS
+Mas a página precisa estar funcional, se tiver botões, eles precisam funcionar, os ícones das redes sociais devem levar a elas.
+
+
+Atividades com nota
+Allan Luís Moquedace Terra - 75
+"Faltou uma funcionalidade. Ou um botão de adicionar, ou um para mandar o pedido pelo whatsapp...  Mas o importante é que você passou! "
+Bilma Miliana De Almeida Evangelista - 75 
+Bom projeto, boa escolha de paleta e deixou funcional. Parabéns
+Daniella Passos Fialho - 100
+Excelentes projetos, funcionais e valendo como inicio de portfolio em React! 
+Dávila Pontes Alves - 60
+Enviou todo projeto no github, anexou o arquivo compactado, mas faltou habilitar o 
+Github Pages; hospedei para você, para servir de portfolio.
+"Exemplo: https://sammyfreitas.github.io/gdecor/ "
+Elaine Christina Celestino - 85
+Erick dos Santos Silveira - 80
+"https://dsserick.github.io/home-page-1/ É esse link da sua página que precisa colocar!"
+Erick Rocha De Almeida Santos - 80 
+Gabriel Viana de Freitas Leão da Costa - 100
+Israel Richene Costa - 90
+Jhéssica Tamiozzo Magela Campos - 70
+João Barbosa Neto - 95
+Josmar Felippe da Silva Pinho - 100
+Muito bom! Um dos melhores trabalhos
+Kaio Victor Amorim da Silva - 100
+Excelente trabalho, me surpreendeu no final
+Karina Beatriz Salomão Vasconcelos
+Nelson Pedro Rodrigues da Silva - 100
+Excelente projeto!
+Patrícia Verônica de Lima França - 100
+Parabéns pelo empenho e entrega de vários projetos.
+Robson Nogueira Da Silva - 100
+Uma as melhores páginas. Parabéns!
+Victor Hugo Botelho de Menezes  - 70
+"https://vtmenezes99.github.io/Lanchonete/ 
+Parabéns pelo projeto.
+Acrescente estas páginas e links github alunos aos já existentes desta turma
+
+Gabriel Viana de Freitas Leão da Costa • 26 de abr. de 2025
+https://gabriel-leao-git.github.io/Site-vianense/
+
+Israel Richene Costa • 26 de abr. de 2025
+https://github.com/IsraelRCosta/Projeto-Calculadora-IMC
+https://github.com/IsraelRCosta/Projeto-lanchonete
+https://github.com/IsraelRCosta/Projeto-Pizzaria
+
+Josmar Felippe da Silva Pinho • 26 de abr. de 2025
+https://josmar-felippe.github.io/Laborar/
+
+Israel Richene Costa • 26 de abr. de 2025
+https://israelrcosta.github.io/Projeto-Pizzaria/
+https://israelrcosta.github.io/Projeto-lanchonete/
+https://israelrcosta.github.io/Projeto-Calculadora-IMC/
+
+Nelson Pedro Rodrigues da Silva • 27 de abr. de 2025
+https://pedrorodrigues89.github.io/calculadoraIMC/
+
+Allan Luís Moquedace Terra • 27 de abr. de 2025
+https://allanluis.github.io/action/
+
+Allan Luís Moquedace Terra • 27 de abr. de 2025
+https://allanluis.github.io/minhas-actions/
+
+Daniella Passos Fialho • 27 de abr. de 2025
+https://dpfialho92.github.io/minha-lanchonete/
+https://dpfialho92.github.io/retro_game/
+
+Elaine Christina Celestino • 27 de abr. de 2025
+https://elaccel.github.io/iliada/
+https://elaccel.github.io/tatooine-lanches/
+
+Robson Nogueira Da Silva • 27 de abr. de 2025
+https://nogueira29.github.io/RafaelaCakesNatal/
+
+Patrícia Verônica de Lima França • 27 de abr. de 2025
+https://patriciafranca87.github.io/lanchonete/
+https://patriciafranca87.github.io/madame-g/
+
+Victor Hugo Botelho de Menezes • 28 de abr. de 2025
+https://vtmenezes99.github.io/Lanchonete/
+
+Dávila Pontes Alves • 28 de abr. de 2025
+https://github.com/pontesdavila/GDecor/
+
+---------------------------------------------------
+ - QUA02492025O043
+ - QUA02492025O044
+ - QUA02492025O045
+
+
+
+Turmas de Backend - Usar um emoticon representando o curso de back para esse card
+--------------
+Programador BackEnd - QUA02492025U030 - (final 05/05/25)
+A turma conseguiu chegar ao ponto somente do projeto SpringTools usando banco H2. Projeto final sem front, apenas com endpoints, testes com postman
+Depois de muitas aulas, choro, cansaço, vontade de desistir, chegamos à reta final do nosso projeto!
+1. Rodar o Projeto SpringTools
+    Enviar print da tela onde a aplicação mostra que rodou
+2. Abrir o H2 e conectar, confirmando se as tabelas foram criadas.
+    Enviar print da tela do h2
+3. Conferir os 3 endpoints criados
+      Enviar print da tela dos endpoints
+4. Fazer as requisições do Postman conforme instruções anexadas.
+      Print de cada um dos métodos (GET, POST, PUT e DELETE)
+
+Alunos (tenho prints dos endpoints somente, acha válido colocar?)
+
+Alexandre Belem Martins		100	
+Alexsandro Gomes E Silva	80
+Aline Paiva Oliveira		100
+Everton Carcione Braz		85
+João Guilherme Santos Silva Daumas	80
+Lucas Felipe Da Costa Pereira	75
+Manoel Vitor Lima Lopes		90
+Mariana Nicolau Cavina		100
+Matheus Dos Santos Da Silva	80
+
+- QUA02492025U059
+- QUA02492025U060
+
+Usar um emoticon representando Redes para esse card
+Turmas de Operador de Sistemas Computacionais em rede - QUA02382025O027
+Considerem que uma empresa fictícia chamada solicitou os serviços da sua equipe de operadores de redes para , com conectividade para computadores, laptops, servidores e dispositivos de gerenciamento.
+A empresa está crescendo e precisa de uma infraestrutura confiável que permita a comunicação eficiente entre setores, acesso à internet, servidores locais e uma estrutura escalável.
+📌 Objetivo do Projeto
+
+Desenvolver uma solução técnica completa que envolva:
+- Montagem da TOPOLOGIA da rede lógica e física no Cisco Packet Tracer
+- Definição da estrutura de hardware e softwares necessários
+- Configuração de servidores DHCP e Web
+- Planejamento de cabeamento, equipamentos e materiais
+- Proposta Comercial para enviar para a equipe de compras do cliente:
+  Apresentação técnica de orçamentos no WORD e 
+  Integrando uma planilha EXCEL de custos dos equipamentos, mão de obra e cronograma de implantação 
+  Apresentação técnica para a diretoria do cliente       
+  Apresentação no Powerpoint com os dados principais para o cliente final

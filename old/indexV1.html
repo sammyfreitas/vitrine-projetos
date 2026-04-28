@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professor Anthony Samuel Freitas | Portfólio de Turmas</title>
+  <meta name="description" content="Portfólio docente com turmas, projetos orientados, destaques de alunos e links para trabalhos desenvolvidos em aula.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-bg"></div>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="glow glow-3"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="profile-box">
+        <img
+          class="profile-photo"
+          src="/img/avatar.png"
+          alt="Foto de Anthony Samuel Freitas"
+        >
+        <div>
+          <p class="mini-label">Portfólio docente</p>
+          <h1 class="profile-name">Professor Anthony Samuel Freitas</h1>
+          <p class="profile-role">Projetos, tecnologia, educação e impacto social</p>
+        </div>
+      </div>
+
+      <nav class="social-links">
+        <a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/sammyfreitas/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://x.com/TonySdeFreitas" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://www.instagram.com/anthony_tijuduke/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/anthonyfreitas78" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content glass">
+        <span class="pill">Aprendizagem aplicada • Repositório de projetos</span>
+
+        <h2>
+          Projetos orientados para
+          <span>aprendizagem real</span>,
+          autonomia técnica
+          e transformação social
+        </h2>
+
+        <p class="hero-text">
+          Este espaço reúne turmas, projetos finais e destaques desenvolvidos ao longo das formações que ministro.
+          Mais do que ensinar programação, meu objetivo é orientar os alunos a transformar conhecimento em soluções
+          concretas, úteis e apresentáveis. Em muitos casos, os projetos são pensados para atender pequenos comerciantes,
+          prestadores de serviço e iniciativas locais, fortalecendo presença digital, organização de processos e visão de mercado.
+        </p>
+
+        <p class="hero-text">
+          Cada trabalho aqui registrado representa não apenas evolução técnica, mas também capacidade de resolver problemas,
+          comunicar ideias e construir algo com propósito.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#turmas">Explorar turmas</a>
+          <a class="btn btn-secondary" href="#contato">Falar comigo</a>
+        </div>
+      </div>
+
+      <aside class="hero-side glass">
+        <div class="hero-side-card">
+          <span class="mini-label">Resumo do acervo</span>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <strong id="totalTurmas">0</strong>
+              <span>Turmas</span>
+            </div>
+            <div class="stat-card">
+              <strong id="totalProjetos">0</strong>
+              <span>Projetos</span>
+            </div>
+            <div class="stat-card">
+              <strong id="totalAlunos">0</strong>
+              <span>Alunos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-note">
+          <h3>Propósito</h3>
+          <p>
+            Registrar, valorizar e divulgar a produção dos alunos, criando um repositório visual e útil
+            tanto para documentação institucional quanto para inspiração de futuras turmas.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <main class="container main-content">
+    <section class="section-head">
+      <div>
+        <span class="pill">Seleção especial</span>
+        <h2>Destaques dos projetos</h2>
+        <p>
+          Trabalhos que se destacaram por criatividade, execução, evolução técnica,
+          aplicação prática ou qualidade visual.
+        </p>
+      </div>
+    </section>
+
+    <section class="toolbar glass">
+      <div class="toolbar-left">
+        <label for="filtroTecnologia">Filtrar por tecnologia</label>
+        <select id="filtroTecnologia">
+          <option value="todas">Todas</option>
+        </select>
+      </div>
+
+      <div class="toolbar-right">
+        <button id="btnSomenteDestaques" class="btn btn-primary" type="button">Ver só destaques</button>
+        <button id="btnMostrarTodos" class="btn btn-secondary" type="button">Mostrar tudo</button>
+      </div>
+    </section>
+
+    <section id="listaDestaques" class="grid-destaques"></section>
+
+    <section id="turmas" class="section-head section-space">
+      <div>
+        <span class="pill">Acervo completo</span>
+        <h2>Turmas documentadas</h2>
+        <p>
+          Clique em uma turma para acessar sua página com alunos, projetos, tecnologias
+          e destaques selecionados.
+        </p>
+      </div>
+    </section>
+
+    <section id="listaTurmas" class="grid-turmas"></section>
+  </main>
+
+  <footer id="contato" class="footer-section">
+    <div class="container footer-box glass">
+      <div class="footer-intro">
+        <span class="pill">Entre em contato</span>
+        <h2>Vamos conversar</h2>
+        <p>
+          Minha caixa de entrada está sempre aberta. Se você quiser conversar sobre educação,
+          tecnologia, projetos, parcerias ou simplesmente trocar uma ideia, será um prazer falar com você.
+        </p>
+      </div>
+
+      <div class="footer-grid">
+        <div class="contact-card">
+          <strong>Email</strong>
+          <a href="mailto:tonysdefreitas@gmail.com">tonysdefreitas@gmail.com</a>
+        </div>
+
+        <div class="contact-card">
+          <strong>WhatsApp</strong>
+          <a href="https://wa.me/5521986140005" target="_blank" rel="noopener noreferrer">(21) 98614-0005</a>
+        </div>
+
+        <div class="contact-card">
+          <strong>Localização</strong>
+          <span>Tijuca<br>Rio de Janeiro, RJ</span>
+        </div>
+
+        <div class="contact-card">
+          <strong>Redes sociais</strong>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/sammyfreitas/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://x.com/TonySdeFreitas" target="_blank" rel="noopener noreferrer">X</a>
+            <a href="https://www.instagram.com/anthony_tijuduke/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="dados/projetos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
