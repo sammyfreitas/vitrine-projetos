@@ -7,9 +7,9 @@
 :root {
   --bg: #07131f;
   --bg-2: #0b1d2f;
-  --surface: rgba(16, 35, 58, 0.62);
-  --surface-2: rgba(24, 46, 73, 0.70);
-  --border: rgba(160, 208, 255, 0.14);
+  --surface: rgba(16, 35, 58, 0.14);
+  --surface-2: rgba(24, 46, 73, 0.14);
+  --border: rgba(160, 208, 255, 0.30);
   --text: #eef6ff;
   --muted: #b6c8de;
   --accent: #52c4ff;
@@ -35,6 +35,8 @@ body {
     linear-gradient(180deg, #07131f 0%, #091827 48%, #07131f 100%);
   min-height: 100vh;
 }
+
+
 
 a {
   color: inherit;
@@ -208,11 +210,16 @@ a {
 }
 
 .summary-item {
+  display: flex;
+  align-items: center;
+  gap: 150px;
   padding: 16px 18px;
   border-radius: 18px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
 }
+
+
 
 .summary-item strong {
   display: block;
@@ -221,6 +228,18 @@ a {
 
 .summary-item span {
   color: var(--muted);
+}
+
+summary-icon{
+  width: 200px;
+  height: 200px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  font-size: 50px;
+  color: #52c4ff;
+  background: rgba(82,196,255,0.12);
+  border: 1px solid rgba(82,196,255,0.18);
 }
 
 .gp-card p {
@@ -978,4 +997,25 @@ a {
   .mentoria-midias .media-card img {
     height: 220px;
   }
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("img/fundos/tech-bg.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  z-index: -2;
+  pointer-events: none;
+}
+
+
+
+.hero-copy p,
+.card-desc,
+.gp-content p,
+.mentoria-bloco,
+.footer-curadoria p {
+  text-align: justify;
 }
