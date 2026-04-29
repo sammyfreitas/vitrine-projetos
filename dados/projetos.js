@@ -2,8 +2,8 @@ const loremPadrao =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
 const dadosTurmas = {
-  
- u060: {
+
+  u060: {
     codigo: "QUA03062026U060",
     curso: "🧩 Programador BackEnd",
     periodo: "Fevereiro a Abril de 2026",
@@ -265,7 +265,7 @@ const dadosTurmas = {
         github: "https://github.com/WellMouraTi/Loja_Eletronico_SenaiT59-Front?authuser=0",
         imagem: "img/destaques/u059-wellington-eletronicos.png"
       },
-      
+
 
     ],
 
@@ -426,6 +426,358 @@ const dadosTurmas = {
             tecnologias: ["HTML", "CSS", "JavaScript", "Java", "Spring Boot", "MySQL"],
             link: "https://wesleysousa39.github.io/wcell/",
             github: "https://github.com/Wesleysousa39/wcell",
+            descricao: loremPadrao
+          }
+        ]
+      }
+    ]
+  },
+
+  u908: {
+    codigo: "APR0012026U908",
+    curso: "📁 Assistente Administrativo",
+    periodo: "Fevereiro a Abril de 2026",
+    pagina: "paginas/turma-u908.html",
+    descricao:
+      "EM CONSTRUÇÃO: Na disciplina de TGA e em Empreendedorismo, os alunos tiveram o primeiro contato com construção de ideias de negócio, utilizando Canvas,fazendo prototipação conceitual de produtos e apresentação de pitch.",
+    destaques: [],
+    alunos: [],
+  },
+
+  u883: {
+    codigo: "APR0012025U883",
+    curso: "📁 Assistente Administrativo",
+    periodo: "Novembro de 2025 a Janeiro de 2026",
+    pagina: "paginas/turma-u883.html",
+    descricao:
+      "EM CONSTRUÇÃO: Na disciplina de TGA e em Empreendedorismo, os alunos tiveram o primeiro contato com construção de ideias de negócio, utilizando Canvas,fazendo prototipação conceitual de produtos e apresentação de pitch.",
+    destaques: [],
+    alunos: [],
+  },
+
+  u001: {
+    codigo: "APR01302025U001",
+    curso: "💻 Desenvolvedor de Soluções Integradas em TI (Eletrobrás)",
+    periodo: "Junho a Outubro de 2025",
+    pagina: "paginas/turma-u001.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma de aprendizagem com foco em desenvolvimento de projetos com apresentação em formato de pitch, estruturação de ideias, proposta de solução tecnológica e prototipação inicial voltada ao contexto organizacional.",
+    destaques: [],
+    alunos: [],
+  },
+
+  u005: {
+    codigo: "APP23382025U005",
+    curso: "📊 Análise de Dados",
+    periodo: "Dezembro de 2025",
+    pagina: "paginas/turma-u005.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma com projetos de análise de dados, utilizando ferramentas como Excel e Power BI, com foco em soluções aplicadas. Turma em construção. Projetos e alunos serão adicionados após o levantamento das entregas.",
+    destaques: [],
+    alunos: []
+  },
+
+  u036: {
+    codigo: "QUA03062025U036",
+    curso: "🧩 Programador BackEnd",
+    periodo: "Junho a Setembro de 2025",
+    pagina: "paginas/turma-u036.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma de Back-end com projetos voltados ao desenvolvimento de APIs restful de Sistema CRUD, utilizando Java, Spring Boot e banco de dados MySQL",
+    destaques: [],
+    alunos: [],
+  },
+
+  u030: {
+    codigo: "QUA03062025U030",
+    curso: "🧩 Programador BackEnd",
+    periodo: "Fevereiro a Abril de 2025",
+    pagina: "paginas/turma-u030.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma de Back-end com projetos voltados ao desenvolvimento de APIs restful de Sistema CRUD, utilizando Java, Spring Boot e banco de dados MySQL",
+    destaques: [],
+    alunos: [],
+  },
+
+  u027: {
+    codigo: "QUA02382025U027",
+    curso: "🌐 Operação de Sistemas Computacionais em Rede",
+    periodo: "Março a Julho de 2025",
+    pagina: "paginas/turma-u027.html",
+    descricao:
+      "Turma voltada ao planejamento e implementação de infraestrutura de rede, integrando documentação técnica, planilha de custos, apresentação e simulação no Cisco Packet Tracer.",
+    destaques: [
+      {
+        aluno: "Lucas Pereira da Silva",
+        projeto: "Projeto de Infraestrutura de Rede",
+        descricao: "Documentação técnica, proposta e apresentação de solução de rede empresarial.",
+        tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+        link: "download/T.U027.Redes_LUCAS_PEREIRA_Documentação_Técnica .pdf",
+        github: "",
+        imagem: "img/destaques/u027-lucas-pereira.png"
+      },
+      {
+        aluno: "Lucas Avelino do Carmo Santos",
+        projeto: "Projeto de Infraestrutura de Rede",
+        descricao: "Projeto técnico de rede com documentação e apresentação.",
+        tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+        link: "download/T.U027.Redes_LUCAS_AVELINO_Documentação_Técnica .pdf",
+        github: "",
+        imagem: "img/destaques/u027-lucas-avelino.png"
+      },
+      {
+        aluno: "Thiago Gonçalves Alves",
+        projeto: "Projeto de Infraestrutura de Rede",
+        descricao: "Projeto técnico com planejamento, documentação e apresentação para cliente.",
+        tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+        link: "download/T.U027.Redes_THIAGO_GONCALVES_Documentação_Técnica .pdf",
+        github: "",
+        imagem: "img/destaques/u027-thiago.png"
+      }
+    ],
+    alunos: [
+      {
+        nome: "Asafe da Silva Lages Bezerra",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 60.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_ASAFE_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Caio Vinicius Pereira Couto",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 85.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_CAIO_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_CAIO_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Diego Morais Sousa Costa",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 80.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_DIEGO_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_DIEGO_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Eduarda da Silva Novo",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 80.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_EDUARDA_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_EDUARDA_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Felipe Martins Sisquim",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 85.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_FELIPE_SISQUIM_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_FELIPE_SISQUIM_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Fernando Silva Barbosa",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 85.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_FERNANDO_SILVA_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_FERNANDO_SILVA_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Guilherme Felipe Tavares Sena",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 85.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_GUILHERME_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_GUILHERME_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Lucas Avelino do Carmo Santos",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 95.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_LUCAS_AVELINO_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_LUCAS_AVELINO_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Lucas Pereira da Silva",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 100.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_LUCAS_PEREIRA_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_LUCAS_PEREIRA_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Nathã Almeida Oliveira",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 80.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_NATHÃ_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_NATHÃ_Apresentacao.pptx",
+            github: "",
+            descricao: loremPadrao
+          }
+        ]
+      },
+      {
+        nome: "Thiago Gonçalves Alves",
+        github: "",
+        linkedin: "",
+        instagram: "",
+        observacao: "Nota 95.",
+        projetos: [
+          {
+            nome: "Documentação Técnica de Rede",
+            tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_THIAGO_GONCALVES_Documentação_Técnica .pdf",
+            github: "",
+            descricao: loremPadrao
+          },
+          {
+            nome: "Apresentação Técnica",
+            tecnologias: ["PowerPoint", "Redes"],
+            link: "download/T.U027.Redes_THIAGO_GONCALVES_Apresentacao.pptx",
+            github: "",
             descricao: loremPadrao
           }
         ]
@@ -968,291 +1320,71 @@ const dadosTurmas = {
     ]
   },
 
-  u027: {
-  codigo: "QUA02382025U027",
-  curso: "🌐 Operação de Sistemas Computacionais em Rede",
-  periodo: "Julho de 2025",
-  pagina: "paginas/turma-u027.html",
-  descricao:
-    "Turma voltada ao planejamento e implementação de infraestrutura de rede, integrando documentação técnica, planilha de custos, apresentação e simulação no Cisco Packet Tracer.",
-  destaques: [
-    {
-      aluno: "Lucas Pereira da Silva",
-      projeto: "Projeto de Infraestrutura de Rede",
-      descricao: "Documentação técnica, proposta e apresentação de solução de rede empresarial.",
-      tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-      link: "download/T.U027.Redes_LUCAS_PEREIRA_Documentação_Técnica .pdf",
-      github: "",
-      imagem: "img/destaques/u027-lucas-pereira.png"
-    },
-    {
-      aluno: "Lucas Avelino do Carmo Santos",
-      projeto: "Projeto de Infraestrutura de Rede",
-      descricao: "Projeto técnico de rede com documentação e apresentação.",
-      tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-      link: "download/T.U027.Redes_LUCAS_AVELINO_Documentação_Técnica .pdf",
-      github: "",
-      imagem: "img/destaques/u027-lucas-avelino.png"
-    },
-    {
-      aluno: "Thiago Gonçalves Alves",
-      projeto: "Projeto de Infraestrutura de Rede",
-      descricao: "Projeto técnico com planejamento, documentação e apresentação para cliente.",
-      tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-      link: "download/T.U027.Redes_THIAGO_GONCALVES_Documentação_Técnica .pdf",
-      github: "",
-      imagem: "img/destaques/u027-thiago.png"
-    }
-  ],
-  alunos: [
-    {
-      nome: "Asafe da Silva Lages Bezerra",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 60.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_ASAFE_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Caio Vinicius Pereira Couto",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 85.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_CAIO_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_CAIO_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Diego Morais Sousa Costa",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 80.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_DIEGO_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_DIEGO_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Eduarda da Silva Novo",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 80.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_EDUARDA_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_EDUARDA_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Felipe Martins Sisquim",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 85.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_FELIPE_SISQUIM_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_FELIPE_SISQUIM_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Fernando Silva Barbosa",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 85.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_FERNANDO_SILVA_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_FERNANDO_SILVA_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Guilherme Felipe Tavares Sena",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 85.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_GUILHERME_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_GUILHERME_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Lucas Avelino do Carmo Santos",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 95.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_LUCAS_AVELINO_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_LUCAS_AVELINO_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Lucas Pereira da Silva",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 100.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_LUCAS_PEREIRA_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_LUCAS_PEREIRA_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Nathã Almeida Oliveira",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 80.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_NATHÃ_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_NATHÃ_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    },
-    {
-      nome: "Thiago Gonçalves Alves",
-      github: "",
-      linkedin: "",
-      instagram: "",
-      observacao: "Nota 95.",
-      projetos: [
-        {
-          nome: "Documentação Técnica de Rede",
-          tecnologias: ["Packet Tracer", "Word", "Excel", "PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_THIAGO_GONCALVES_Documentação_Técnica .pdf",
-          github: "",
-          descricao: loremPadrao
-        },
-        {
-          nome: "Apresentação Técnica",
-          tecnologias: ["PowerPoint", "Redes"],
-          link: "download/T.U027.Redes_THIAGO_GONCALVES_Apresentacao.pptx",
-          github: "",
-          descricao: loremPadrao
-        }
-      ]
-    }
-  ]
-},
+  u003: {
+    codigo: "APP22782024U003",
+    curso: "📊 Power BI",
+    periodo: "Fevereiro de 2025",
+    pagina: "paginas/turma-u003.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma de Power BI com foco em análise de dados, criação de dashboards, tratamento de informações, indicadores visuais e apoio à tomada de decisão.",
+    destaques: [],
+    alunos: [],
+  },
+
+  u098: {
+    codigo: "APP00632024U098",
+    curso: "📊 Excel Avançado",
+    periodo: "Janeiro de 2025",
+    pagina: "paginas/turma-u098.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma com soluções utilizando Excel avançado, automação e análise de dados.",
+    destaques: [],
+    alunos: [],
+  },
+
+  u046: {
+    codigo: "APP07652024U046",
+    curso: "📊 Excel como Ferramenta de Banco de Dados",
+    periodo: "Dezembro de 2024",
+    pagina: "paginas/turma-u046.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma com projetos de Excel avançado, utilizando o Excel como ferramenta de banco de dados para soluções diversas.",
+    destaques: [],
+    alunos: [],
+  },
+
+  u207: {
+    codigo: "QUA00952024U207",
+    curso: "🖥️ Operador de Computadores",
+    periodo: "Novembro de 2024",
+    pagina: "paginas/turma-u207.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma de Operador de Computadores com atividades práticas voltadas ao uso de sistemas, ferramentas de escritório, organização de arquivos e fundamentos de informática.",
+    destaques: [],
+    alunos: [],
+  },
+
+  u153: {
+    codigo: "QUA02232024U153",
+    curso: "🌐 Operador de Sistemas Computacionais em Rede",
+    periodo: "Maio a Setembro de 2024",
+    pagina: "paginas/turma-u153.html",
+    descricao:
+      "EM CONSTRUÇÃO: Turma de Operador de Sistemas Computacionais em Rede com atividades voltadas a infraestrutura, configuração de sistemas, redes, conectividade e suporte técnico.",
+    destaques: [],
+    alunos: [],
+  },
+
+  u042: {
+    codigo: "APP07652024U042",
+    curso: "📊 Excel como Ferramenta de Banco de Dados",
+    periodo: "Abril de 2024",
+    pagina: "paginas/turma-u042.html",
+    descricao:
+      "Turma com projetos de Excel avançado, utilizando o Excel como ferramenta de banco de dados para soluções diversas.",
+    destaques: [],
+    alunos: [],
+  },
 
   o024: {
     codigo: "QUA02492023O024",
@@ -1320,7 +1452,7 @@ const dadosTurmas = {
     ],
     alunos: [
       {
-        nome: "Emanoel Souza" ,
+        nome: "Emanoel Souza",
         github: "https://github.com/EmanoelSouza1",
         linkedin: "",
         instagram: "https://www.instagram.com/neneeltrembala/",
@@ -1523,7 +1655,7 @@ const dadosTurmas = {
             github: "https://github.com/paulosergioneto",
             descricao: "projeto integrador, portfolio pessoal utilizando HTML e CSS."
           },
-        {
+          {
             nome: "Projeto Livre - Cachorro Quente do Paulão",
             tecnologias: ["HTML", "CSS", "JavaScript", "JS"],
             link: "https://paulosergioneto.github.io/Proj_livre/",
@@ -1985,4 +2117,16 @@ const dadosTurmas = {
       }
     ]
   },
+
+  uteste: {
+    codigo: "EM CONSTRUÇÃO",
+    curso: "🧪 Turma Teste",
+    periodo: "",
+    pagina: "#",
+    descricao:
+      "Turma em construção para testes de layout e estrutura.",
+    destaques: [],
+    alunos: [],
+  },
+
 };

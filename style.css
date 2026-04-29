@@ -154,6 +154,16 @@ a {
   padding: 24px 0 18px;
 }
 
+.hero-text{
+  font-size: 1.1rem;
+  line-height: 1.2;
+  color: #cbd5e1;
+  margin-bottom: 14px;
+  text-align: justify;
+  text-indent: 30px;  
+
+}
+
 .hero-copy {
   padding: 30px 32px;
   border-radius: var(--radius-xl);
@@ -212,14 +222,12 @@ a {
 .summary-item {
   display: flex;
   align-items: center;
-  gap: 150px;
-  padding: 16px 18px;
+  gap: 20px;
+  padding: 20px;
   border-radius: 18px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
 }
-
-
 
 .summary-item strong {
   display: block;
@@ -230,16 +238,33 @@ a {
   color: var(--muted);
 }
 
-summary-icon{
-  width: 200px;
-  height: 200px;
-  display: grid;
-  place-items: center;
-  border-radius: 14px;
+.summary-icon{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
   font-size: 50px;
   color: #52c4ff;
   background: rgba(82,196,255,0.12);
   border: 1px solid rgba(82,196,255,0.18);
+}
+
+.summary-text{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.summary-text span {
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.summary-text strong {
+  font-size: 2.2rem;
+  line-height: 1;
 }
 
 .gp-card p {
@@ -616,8 +641,8 @@ summary-icon{
 .footer {
   margin-top: 48px;
   padding: 34px 0 46px;
-  border-top: 1px solid rgba(255,255,255,0.08);
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border-top: 1px solid rgba(255,255,255,0.12);
+  background: linear-gradient(180deg, rgba(255,255,255,0.2), transparent);
 }
 
 .footer-grid {
