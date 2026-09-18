@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Turma, alunos e projetos da Vitrine de Projetos.">
+  <title>Turma | Vitrine de Projetos</title>
+  <link rel="icon" type="image/svg+xml" href="img/vitrine-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="enhancements.css">
+  <link rel="stylesheet" href="final.css">
+  <link rel="stylesheet" href="turma.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="notice"><div class="container notice-inner"><a class="notice-led" href="https://futura.frm.org.br/conteudo/educacao-basica/noticia/joao-gomes-e-o-embaixador-do-premio-led-2026-voz-do-piseiro-se-une" target="_blank" rel="noopener"><span><i class="fa-solid fa-award"></i> Inscrito no Prêmio LED 2027</span><strong>Conheça o Prêmio LED <i class="fa-solid fa-arrow-up-right-from-square"></i></strong></a></div></div>
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html"><span class="logo-mark"><i class="fa-solid fa-laptop-code"></i></span><span><strong>Vitrine de Projetos</strong><b>Educação • tecnologia • impacto</b></span></a>
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="mainNav"><i class="fa-solid fa-bars"></i></button>
+      <nav class="main-nav" id="mainNav"><a href="index.html#explorar">Projetos</a><a href="index.html#turmas">Turmas</a><a href="index.html#alunos">Alunos</a><a href="index.html#premio-led">Prêmio LED</a><a href="index.html#trajetorias">Trajetórias</a></nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar tema escuro"><i class="fa-solid fa-moon"></i></button>
+      <a class="header-cta" href="index.html"><i class="fa-solid fa-arrow-left"></i> Página inicial</a>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="class-hero"><div class="container class-hero-grid"><div><a class="back-link" href="index.html#turmas"><i class="fa-solid fa-arrow-left"></i> Todas as turmas</a><span class="eyebrow" id="classCode">Turma</span><h1 id="classTitle">Carregando turma...</h1><p id="classDescription"></p><div class="class-summary"><span><strong id="classStudentCount">0</strong> alunos</span><span><strong id="classProjectCount">0</strong> projetos</span><span id="classPeriod"></span></div></div><div class="class-hero-icon"><i class="fa-solid fa-people-group"></i></div></div></section>
+    <section class="section class-projects"><div class="container"><div class="section-heading split-heading"><div><span class="eyebrow">Produções da turma</span><h2>Projetos desenvolvidos</h2></div><p>Projetos publicados, tecnologias utilizadas e conexões profissionais informadas pelos alunos.</p></div><div class="project-grid" id="classProjectGrid"></div></div></section>
+    <section class="section class-students" id="alunos"><div class="container"><div class="section-heading split-heading"><div><span class="eyebrow">Todos têm perfil</span><h2>Alunos da turma</h2></div><p>Mesmo quando não há projeto, currículo ou rede profissional disponível, o aluno permanece representado na Vitrine.</p></div><div class="talent-grid" id="classStudentGrid"></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-bottom class-footer"><span>© 2026 Vitrine de Projetos • Prof. Anthony Samuel Sobral de Freitas</span><a href="index.html">Voltar para a página inicial</a></div></footer>
+  <dialog class="profile-dialog" id="profileDialog"><button class="dialog-close" id="closeProfile"><i class="fa-solid fa-xmark"></i></button><div class="dialog-profile-head"><div class="dialog-avatar-wrap"><div class="dialog-avatar" id="dialogAvatar">AL</div><span class="open-badge" id="dialogOpenBadge" hidden>OPEN TO WORK</span></div><div><span class="profile-course" id="dialogCourse"></span><h2 id="dialogName">Aluno</h2><p id="dialogSummary"></p></div></div><div class="dialog-grid"><section><h3>Competências</h3><div class="skill-row" id="dialogSkills"></div><h3>Projetos do aluno</h3><div class="dialog-project-list" id="dialogProjects"></div></section><section><h3>Conexões profissionais</h3><div class="dialog-actions" id="dialogActions"></div></section></div></dialog>
+  <script src="dados/projetos.js"></script>
+  <script src="turma.js"></script>
+</body>
+</html>
