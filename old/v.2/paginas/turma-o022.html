@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turma O022</title>
+  <link rel="stylesheet" href="../css/turmas.css">
+</head>
+<body data-turma="o022">
+  <header class="topo">
+    <div class="container">
+      <a class="voltar" href="../index.html">← Voltar para turmas</a>
+      <span class="codigo" id="codigoTurma"></span>
+      <h1 id="nomeTurma"></h1>
+      <p class="periodo" id="periodoTurma"></p>
+      <p class="descricao" id="descricaoTurma"></p>
+
+      <div class="info-geral">
+        <div class="info-box">
+          <strong id="infoAlunos">0</strong>
+          <span>Alunos listados</span>
+        </div>
+        <div class="info-box">
+          <strong id="infoProjetos">0</strong>
+          <span>Projetos cadastrados</span>
+        </div>
+        <div class="info-box">
+          <strong id="infoDestaques">0</strong>
+          <span>Melhores projetos</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="secao">
+      <h2>Destaques da turma</h2>
+      <p class="sub">Use esta área para mostrar os melhores projetos e depois inserir prints das páginas.</p>
+      <div id="areaDestaques"></div>
+    </section>
+
+    <section class="secao">
+      <h2>Alunos e projetos</h2>
+      <p class="sub">Clique em cada aluno para abrir os projetos disponíveis.</p>
+
+      <div class="busca-box">
+        <input type="text" id="buscaAluno" placeholder="Buscar por aluno, projeto ou tecnologia">
+      </div>
+
+      <div class="grid-alunos" id="areaAlunos"></div>
+    </section>
+  </main>
+
+  <script src="../dados/projetos.js"></script>
+  <script src="../js/turmas.js"></script>
+</body>
+</html>
